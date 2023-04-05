@@ -15,7 +15,7 @@ public class BookConfig {
 	@Primary
 	public Book getBook1() {
 		Book bk = new Book();
-		bk.setIsbn("978-23-83310-5");
+		bk.setIsbn("978-23-83222-5");
 		bk.setYear("2020");
 		bk.setAuthor(getAuthor());
 		return bk;
